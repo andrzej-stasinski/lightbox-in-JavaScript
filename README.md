@@ -9,6 +9,7 @@
 * dynamic reading of images from HTML
 * using JavaScript & CSS
 * animation in CSS by @keyframes
+* Main background that show image has animation of lightening and darkening
 * the picture will always be in the center even if the window changes
 
 

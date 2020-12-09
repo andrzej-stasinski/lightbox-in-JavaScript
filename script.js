@@ -2,8 +2,8 @@ console.log('lightbox sam1');
 
 (function(){
 
-	var szerImg = 200;
-	var wysoImg = 200;
+	var szerImg = 300;
+	var wysoImg = 300;
 
 	function ustawOkno() {
 		// Okno małe div - ustaw na środku
@@ -48,7 +48,6 @@ console.log('lightbox sam1');
 		okno.textContent = img.alt;
 		setTimeout(function() {
 			document.body.appendChild(okno);
-			// img do okna div co ma być na środku
 			var fotka = document.createElement('img');
 			fotka.src = img.src;
 			fotka.style.width   = szerImg+'px';
